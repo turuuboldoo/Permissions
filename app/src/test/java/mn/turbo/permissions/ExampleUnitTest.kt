@@ -1,4 +1,4 @@
-package com.coderz.f1.permissionsinkotlin
+package mn.turbo.permissions
 
 import org.junit.Test
 

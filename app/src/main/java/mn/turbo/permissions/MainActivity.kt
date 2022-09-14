@@ -1,4 +1,4 @@
-package com.coderz.f1.permissionsinkotlin
+package mn.turbo.permissions
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.coderz.f1.permissionsinkotlin.databinding.ActivityMainBinding
+import mn.turbo.permissions.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 

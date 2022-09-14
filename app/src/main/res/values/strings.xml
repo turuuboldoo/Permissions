@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PermissionsInKotlin</string>
+    <string name="app_name">Get Permissions</string>
     <string name="request_camera">Request Camera</string>
     <string name="request_read_write_files">Request Read/Write Files</string>
 </resources>

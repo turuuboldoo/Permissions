@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.coderz.f1.permissionsinkotlin"
+        applicationId "mn.turbo.permissions"
         minSdk 26
         targetSdk 33
         versionCode 1
