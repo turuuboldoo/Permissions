@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-    //Permissions Launchers-------------------------------------------------------------------------
+    // Permissions Launchers-------------------------------------------------------------------------
     private val getCameraPermission: ActivityResultLauncher<String> =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { hasPermission ->
             if (!hasPermission) {
@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
 
+    // Show Toast Message-------------------------------------------------------------------------
     private fun showMessage(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
